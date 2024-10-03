@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icono de Pagina -->
+    <link rel="icon" href="icon.png" type="image/png">
+    <!-- <link rel="icon" href="assets/icons/favicon.png" type="image/png"> -->
+    <title>Servicios de Informatica</title>
+
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <header>
+        <div><img src="logo.png" alt="logo de empresa" width="200"></div>
+        <h1>Servicios de Programación Solucsoft</h1><hr>        
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#sobre-nosotros">Nosotros</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección sobre nosotros -->
+        <section id="sobre-nosotros">
+            <h2>Nosotros</h2>
+            <p align="justify">Solucsoft dispone de diversas unidades de negocio ampliamente especializadas en ofrecer <b>soluciones y servicios informáticos</b> eficientes en su correspondiente área de trabajo. Como consultoría informática ofrece, además, la posibilidad de un servicio integral, en lo que a Tecnologías de la Información se refiere, desde el <b>diseño del plan de sistemas de información hasta la implantación y mantenimiento</b> de los mismos, para que cualquier empresa u organización pueda contar con la solución informática adecuada y óptima en todo momento, y en línea con sus objetivos.<br><br>
+            Las soluciones en esos casos pueden englobar diversas áreas de actuación de servicios informáticos, y serán ejecutadas desde distintas unidades de la compañía. Pero serán planificadas y puestas en marcha de manera unificada, encargándose nuestros profesionales de establecer una planificación de los servicios totalmente sincronizada, que el cliente vea como única.</p>
+            <!-- Integración del video de YouTube -->
+            <div style="text-align: center;">
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/2l7iG_08zEE?si=lstRQjvO-YZ7-aH5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div style="text-align: center;">
+                <img src="programador.jpg" alt="Foto de programador" width="500" height="300">
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <article class="project-item">
+                <h3>Proyecto 1: Tienda en línea</h3>
+                <p>Desarrollo de una tienda en línea para una pequeña empresa local. El  Diseño  y  la  Implementación  de  una  Tienda  Virtual  tiene  como resultado  una  aplicación  Web  desde  la  cual,  una  empresa  pueda ampliar  sus  ventas mediante el  comercio electrónico  de manera  fácil, rápida y sencilla. De  esta  manera,  se  facilita  a  los  clientes  la  opción  de  realizar  sus compras  sin  salir  de  casa  o  simplemente,  visualizar  los  artículos disponibles o consultar  el  estado  de  algún  pedido  realizado anteriormente.</p>
+                <a href="proyecto1.html">Leer más</a>
+            </article>
+
+            <article class="project-item">
+                <h3>Proyecto 2: Aplicación de Gestión</h3>
+                <p>Aplicación web para la gestión de inventarios y ventas en tiempo real. Sin importar el tamaño de una empresa, la gestión de inventarios es una de las actividades de mayor relevancia. Garantiza que la logística en la cadena de suministro sea la adecuada para mantener una rotación de producto bien estructurada, que garantice la fluidez entre la producción, la comercialización y la satisfacción del cliente.</p>
+                <a href="proyecto2.html">Leer más</a>
+            </article>
+
+            <article class="project-item">
+                <h3>Proyecto 3: Blog Personal</h3>
+                <p>Blog interactivo con un sistema de comentarios y un panel de administración personalizado. Son sitios web centrados en el contenido escrito, los cuales pueden tener un enfoque personal o comercial. No obstante, un bloguero o bloguera suele escribir desde su perspectiva personal y la experiencia en su rubro.</p>
+                <a href="proyecto3.html">Leer más</a>
+            </article>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="/mensaje" method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <div>
+            <p>&copy; 2024 Solucsoft. Todos los derechos reservados.</p>
+        </div>
+        <div>
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </footer>  
+    
+</body>
+</html>
